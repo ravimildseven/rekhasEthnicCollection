@@ -2,6 +2,8 @@
 
 A showcase website for Rekha's Ethnic Collection, featuring a beautiful collection of Indian ethnic wear.
 
+Visit our website: [Rekha's Ethnic Collection](https://ravimildseven.github.io/rekhasEthnicCollection)
+
 ## Features
 
 - Responsive design that works on mobile and desktop
