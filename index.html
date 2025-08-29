@@ -180,7 +180,8 @@
 
         button.addEventListener('click', (event) => {
             const productId = event.currentTarget.dataset.productId;
-            const message = encodeURIComponent(`Hey Rekha, I'm interested in ${productId} from your collection. What is the price of this?`);
+            const websiteUrl = 'https://ravimildseven.github.io/rekhasEthnicCollection/';
+            const message = encodeURIComponent(`Hey Rekha, I'm interested in ${productId} from your collection (${websiteUrl}). What is the price of this?`);
             const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
             window.open(whatsappUrl, '_blank');
         });
